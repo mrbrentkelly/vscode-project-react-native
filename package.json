@@ -1,0 +1,13 @@
+{
+  "name": "vscode-project-react-native",
+  "version": "0.1.0",
+  "description": "Opinionated VSCode configuration for React Native projects",
+  "main": "index.js",
+  "repository": "git@github.com:mrbrentkelly/vscode-project-react-native.git",
+  "author": "Brent Kelly",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "postinstall": "node index.js"
+  }
+}
