@@ -7,6 +7,7 @@ const filesToCopy = [
     '/.vscode/extensions.json', 
     '/.vscode/launch.json', 
     '/.vscode/settings.json',
+    '/.vscode/vscode-project-react-native.code-snippets'
 ];
 
 const moduleRoot = __dirname;
