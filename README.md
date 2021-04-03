@@ -2,8 +2,8 @@
 
 The perfect VSCode configuration for your React Native project :fire:
 
-Auto-lint on save + recommended extensions.
+Auto-lint and Auto-prettier on save + recommended extensions + code snippets.
 
 ```
-yarn add https://github.com/mrbrentkelly/vscode-project-react-native --dev
+yarn add vscode-project-react-native --dev
 ```
