@@ -1,6 +1,6 @@
 {
   "name": "vscode-project-react-native",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Opinionated VSCode configuration for React Native projects",
   "main": "index.js",
   "repository": {
@@ -10,9 +10,6 @@
   "author": "Brent Kelly",
   "license": "MIT",
   "private": false,
-  "scripts": {
-    "postinstall": "node index.js"
-  },
   "bugs": {
     "url": "https://github.com/mrbrentkelly/vscode-project-react-native/issues"
   },
@@ -20,8 +17,10 @@
   "keywords": [
     "React",
     "Native",
-    "VS",
-    "Code",
+    "VSCode",
     "ESLint"
-  ]
+  ],
+  "bin": {
+    "vscode-project-react-native": "./index.js"
+  }
 }
