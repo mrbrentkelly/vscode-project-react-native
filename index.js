@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+console.log("Creating .vscode configuration for RN project.");
+
 const path = require('path');
 const fs = require('fs');
 
@@ -11,7 +13,7 @@ const filesToCopy = [
 ];
 
 const moduleRoot = __dirname;
-const projectRoot = path.normalize(moduleRoot + '/../..');
+const projectRoot = process.cwd();
 
 const destVSCode = projectRoot + '/.vscode/';
 
@@ -22,3 +24,5 @@ if (!fs.existsSync(destVSCode)) {
 filesToCopy.forEach((file) => {
     fs.copyFileSync(moduleRoot + file, projectRoot + file);
 });
+
+console.log("Done!");

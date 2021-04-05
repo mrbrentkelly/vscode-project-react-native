@@ -1,6 +1,6 @@
 {
   "name": "vscode-project-react-native",
-  "version": "0.3.0",
+  "version": "0.6.0",
   "description": "Opinionated VSCode configuration for React Native projects",
   "main": "index.js",
   "repository": {
@@ -21,6 +21,6 @@
     "ESLint"
   ],
   "bin": {
-    "vscode-project-react-native": "./index.js"
+    "vscode-project-react-native": "index.js"
   }
 }
